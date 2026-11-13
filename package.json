@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-qa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manual and Playwright automation testing portfolio for SauceDemo",
+  "scripts": {
+    "test": "playwright test --config=automation-testing/playwright.config.js",
+    "test:headed": "playwright test --config=automation-testing/playwright.config.js --headed",
+    "test:debug": "playwright test --config=automation-testing/playwright.config.js --debug",
+    "report": "playwright show-report playwright-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
